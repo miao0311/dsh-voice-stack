@@ -1,0 +1,19 @@
+# 运行时产物
+*.mp3
+*.wav
+*.beat
+*.log
+say.txt
+think_state.json
+config.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# 系统
+Thumbs.db
+.DS_Store

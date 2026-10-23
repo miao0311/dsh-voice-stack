@@ -1,0 +1,10 @@
+# dsh-voice-status bundle patch.
+#
+# Inserts one host row; the browser half comes from the `dsh.client` manifest in
+# package.json (platform: web), so nothing client-side is declared here.
+#
+# No `@scope/` prefix, so the names need no quoting (a leading `@` is a YAML
+# reserved indicator).
+- insert:
+    - id: dsh-voice-status
+      name: dsh-voice-status
