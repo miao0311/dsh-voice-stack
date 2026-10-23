@@ -54,7 +54,7 @@ def resolve_tools():
 
     ffmpeg = find_executable('ffmpeg', [
         r'C:\Program Files\ffmpeg\bin\ffmpeg.exe',
-        r'E:\AI\ffmpeg\bin\ffmpeg.exe',
+        r'C:\ffmpeg\bin\ffmpeg.exe',
     ])
     return python, ffmpeg
 

@@ -1,6 +1,6 @@
 r"""配置 —— 所有路径集中在这里。
 
-开源版不能把路径写死成 D:\AI\tts：别人拿到跑不起来。
+开源版不能把路径写死成 某个固定目录：别人拿到跑不起来。
 
 优先顺序：
   1. 环境变量 DSH_VOICE_HOME
@@ -85,7 +85,7 @@ def audio_filter(cfg):
 def find_executable(name, candidates):
     """找一个可执行文件，找不到返回 None。
 
-    开源版不能假设 ffmpeg 装在 E:\\AI\\ffmpeg —— 先看 PATH，再看几个常见位置。
+    开源版不能假设 ffmpeg 装在 某个固定路径 —— 先看 PATH，再看几个常见位置。
     """
     import shutil
     found = shutil.which(name)
